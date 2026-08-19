@@ -3,7 +3,7 @@ description: GSoC 2026 — Robot Tools workbench for FreeCAD
 locale: en
 
 remote_theme: mmistakes/minimal-mistakes@4.26.2
-minimal_mistakes_skin: default
+minimal_mistakes_skin: mint
 
 plugins:
   - jekyll-remote-theme
