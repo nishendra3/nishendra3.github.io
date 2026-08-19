@@ -1,0 +1,43 @@
+---
+# Minimal Mistakes override stylesheet
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+// Centered, rounded, softly-shadowed screenshots
+.page__content img {
+  display: block;
+  margin: 1.8rem auto;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 3px 20px rgba(15, 23, 42, 0.16);
+}
+
+// Timeline table: centered and rounded
+.page__content table {
+  display: table;
+  width: auto;
+  min-width: 60%;
+  margin: 1.6rem auto;
+  border: 1px solid #eaeef2;
+  border-radius: 10px;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+
+  th {
+    background: #f6f8fa;
+    border: none;
+    border-bottom: 1px solid #eaeef2;
+  }
+
+  td {
+    border: none;
+    border-bottom: 1px solid #eaeef2;
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+}
